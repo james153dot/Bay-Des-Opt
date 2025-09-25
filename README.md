@@ -1,4 +1,4 @@
-# Bayesian-Design-Optimizer-Stress-Fatigue-Thermal
+# Bayesian-Design-Optimizer: Stress-Fatigue-Thermal
 
 This is a standalone Bayesian optimization driver for mechanical design under constraints. It uses Gaussian‑process surrogates and constrained Expected Improvement to propose parallel design batches. Plug in your solver/rig via evaluate_design(x); the optimizer handles exploration vs exploitation, feasibility modeling, checkpointing, and CI‑friendly exits.
 
